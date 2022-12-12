@@ -82,7 +82,7 @@
     gocart-web-prod-*.elb.amazonaws.com
 
 # Adobe Application Manager:
-    #www.adobe.com
+    www.adobe.com
 
 # Sign in user experience:
     acc-learn.adobe.com

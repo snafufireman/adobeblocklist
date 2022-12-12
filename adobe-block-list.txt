@@ -1,0 +1,287 @@
+##
+## Adobe® Creative Cloud Service Endpoints block list.
+##
+## This is an official list of various network endpoints for Creative Cloud (last updated in December 2022)
+##
+## Official document --> https://helpx.adobe.com/content/dam/help/attachments/Creative_Cloud_for_enterprise_Service_Endpoints.pdf
+##
+## Discussion is here ---> https://www.reddit.com/r/pihole/comments/73t2tx/why_adobe_cc_is_calling_home_every_ten_minutes/
+##
+## Use on your own risk. No warranties implied.
+## 
+
+## Identity & Sign-in services
+
+# Licensing-activation services:
+    lm.licenses.adobe.com
+    resources.licenses.adobe.com
+    cs.licenses.adobe.com
+    exception.licenses.adobe.com
+    pubcerts.licenses.adobe.com
+    workflow.licenses.adobe.com
+    auth.services.adobe.com
+
+# Deployment and fulfillment services:
+    adminconsole.adobe.com
+    cc-ext-prod-pkgs.s3.amazonaws.com
+    ccmdls.adobe.com
+    ccmdl.adobe.com
+    ans.oobesaas.adobe.com
+    ars.oobesaas.adobe.com
+    cdn-ffc.oobesaas.adobe.com
+    ffc-icons.oobesaas.adobe.com
+    ffc-static-cdn.oobesaas.adobe.com
+    prod-rel-ffc-ccm.oobesaas.adobe.com
+    acc.adobeoobe.com
+    prod.acp.adobeoobe.com
+    mir-s3-cdn-cf.behance.net
+    swupmf.adobe.com
+    swupdl.adobe.com
+    oobe.adobe.com
+    *.productrouter.adobe.com
+    s3.amazonaws.com
+    s3.amazonaws.com/tron-ffc-icons-prod/
+    tron-prod-customized-user-packages.s3.amazonaws.com
+    armmf.adobe.com
+    ardownload.adobe.com (HTTP only)
+    ardownload2.adobe.com (HTTPS only)
+    agsupdate.adobe.com
+
+# Adobe-hosted authentication services:
+    ims-na1.adobelogin.com
+    ims-prod06.adobelogin.com
+    ims-prod07.adobelogin.com
+    static.adobelogin.com
+    delegated.adobelogin.com
+    adobeid.services.adobe.com
+    adobeid-na1.services.adobe.com
+    auth.services.adobe.com
+    federatedid-na1.services.adobe.com
+    na1e-acc.services.adobe.com
+    na1e.services.adobe.com
+    na1r.services.adobe.com
+    ad.adobe-identity.com
+    ids-proxy.account.adobe.com
+    lcs-cops.adobe.io
+    lcs-robs.adobe.io
+    lcs-entitlement.adobe.io
+    lcs-ulecs.adobe.io
+    ams.adobe.com
+    oobe.adobe.com
+    adobelogin.prod.ims.adobejanus.com
+    services.prod.ims.adobejanus.com
+    www-prod.adobesunbreak.com
+
+# Additional Services used for Adobe IDs:
+    api-cna01.adobe-services.com
+    supportanyware.adobe.io
+
+# Adobe Genuine Integrity Service:
+    genuine.adobe.com
+    prod.adobegenuine.com
+    gocart-web-prod-*.elb.amazonaws.com
+
+# Adobe Application Manager:
+    www.adobe.com
+
+# Sign in user experience:
+    acc-learn.adobe.com
+    acc-learn.adobe.io
+    acc.adobeoobe.com
+    accounts.adobe.com
+    acp-ss-ue1.adobe.io
+    adobe-api.arkoselabs.com
+    adobe-verify.arkoselabs.com
+    api.account.adobe.com
+    api.typekit.com
+    cc-api-data.adobe.io
+    cc-api-storage.adobe.io
+    client-api.arkoselabs.com
+    client-verify.arkoselabs.com
+    crs.cr.adobe.com
+    data.typekit.net
+    fonts.adobe.com
+    helpx.adobe.com
+    mir-s3-cdn-cf.behance.net
+    notify.adobe.io
+    oobe.adobe.com
+    p.typekit.net
+    p13n.adobe.io
+    p13n-mr.adobe.io
+    polka.typekit.com
+    prod.adobeccstatic.com
+    public.adobecc.com
+    scss.adobesc.com
+    ss-prod-ue1-notif-16.aws.adobess.com
+    sstats.adobe.com
+    state.typekit.net
+    use.typekit.net
+    wwwimages.adobe.com
+    wwwimages2.adobe.com
+
+# Updater:
+    armmf.adobe.com
+    ardownload.adobe.com
+    http://armdl.adobe.com/
+
+## Adobe Creative Cloud services
+    a3.behance.net
+    a5.behance.net
+    account.adobe.com
+    accounts.adobe.com
+    acp-ss-an1.adobe.io
+    acp-ss-ew1.adobe.io
+    acp-ss-ue1.adobe.io
+    acp-ss.adobe.io
+    *.adbecrsl.com
+    *.adbephotos.com
+    adminconsole.adobe.com
+    adobe.ly
+    adobeid-na1.services.adobe.com
+    adobesearch.adobe.io
+    ans.oobesaas.adobe.com
+    api.account.adobe.com
+    api.typekit.com
+    appregistry.adobe.io
+    aps-web.adobe.io
+    ars.oobesaas.adobe.com
+    as.ftcdn.net
+    as1.ftcdn.net
+    as2.ftcdn.net
+    assets-cdn.adobe.com
+    assets-helper.adobe.io
+    assets.adobe.com
+    assets.fonts.adobe.com
+    audios.ftcdn.net
+    auth.services.adobe.com
+    awenroll.adobe.com
+    byof.adobe.io
+    cc-api-behance.adobe.io
+    cc-api-cp.adobe.io
+    cc-api-data.adobe.io
+    cc-api-storage.adobe.io
+    cc-cdn.adobe.com 
+    cc-collab.adobe.io
+    cc-ext-prod-pkgs.s3.amazonaws.com
+    ccext-cdn.adobecces.com
+    ccext-public.adobe.io
+    ccext-static.adobecces.com
+    ccext.adobe.io
+    ccext.adobecces.com
+    cchome.adobe.io
+    cclibraries-defaults-cdn.adobe.com
+    ccprojects-va6.adobe.io
+    ccprojects.adobe.io
+    cctypekit.adobe.io
+    cdn-ffc.oobesaas.adobe.com
+    cdn-sharing.adobecc.com
+    cdn.cp.adobe.io
+    client.messaging.adobe.com
+    comments.adobe.io
+    community.adobe.com
+    connect.ffc.adobeoobe.com
+    creativecloud.adobe.com
+    *.creativecloud.com
+    crs.cr.adobe.com
+    cvs.adobe.com
+    d32a1iuc7x840y.cloudfront.net
+    d3gnp5fs6fu2h7.cloudfront.net
+    dnzuu5synxxfk.cloudfront.net
+    data.typekit.net
+    dc-api.adobe.io
+    design-assets.adobeprojectm.com
+    ds-an1.adobe.io
+    ds-ew1.adobe.io
+    ds-ue1.adobe.io
+    ds.adobe.io
+    exchange.adobe.com
+    faster.typekit.net
+    ffc-static-cdn.oobesaas.adobe.com
+    firebase-settings.crashlytics.com
+    firebaseinstallations.googleapis.com
+    firebaselogging-pa.googleapis.com
+    fonts.adobe.com
+    genuine.adobe.com
+    geo.adobe.com
+    geo2.adobe.com
+    helpx.adobe.com
+    ic.adobe.io 
+    ids-proxy.account.adobe.com
+    illustrator.adobe.com
+    image.adobe.io
+    ims-na1.adobelogin.com
+    ims-prod06.adobelogin.com
+    ims-prod07.adobelogin.com
+    indd.adobe.com
+    invitations.adobe.io
+    landing.adobe.com
+    lcs-cops.adobe.io
+    lcs-robs.adobe.io
+    libraries.adobe.io
+    lightroom.adobe.com
+    links.adobe.io
+    livecreate-an1.adobe.io
+    livecreate-ew1.adobe.io
+    livecreate-ue1.adobe.io
+    *.macromedia.com
+    mail.adobegov.com
+    mir-s3-cdn-cf.behance.net
+    na1e-acc.services.adobe.com
+    notify.adobe.io
+    odin.adobe.com
+    *.omniture.com
+    oobe.adobe.com
+    p.typekit.net
+    p13n.adobe.io
+    pgc.adobe.io
+    photos.adobe.io
+    photoshop.adobe.com
+    platform-assets.typekit.net
+    platform-cs-va6.adobe.io
+    platform-cs.adobe.io
+    polka.typekit.com
+    presence-an1.adobe.io
+    presence-ew1.adobe.io
+    presence-ue1.adobe.io
+    preview.illustrator.adobe.com
+    prod-rel-ffc-ccm.oobesaas.adobe.com
+    prod.adobeccstatic.com
+    prod.wam.adobe.com 
+    psweb-cd.adobe.io
+    public.adobecc.com
+    s.ftcdn.net
+    scss.adobesc.com
+    server.messaging.adobe.com
+    sharedcloud-production-us-east-1-data-asset.s3.amazonaws.com
+    sharedcloud-production-us-east-1-data-temp.s3.amazonaws.com
+    slp-statics.astockcdn.net
+    ss-prod-an1-notif-13-aws.adobess.com
+    ss-prod-an1-notif-16.aws.adobess.com
+    ss-prod-ew1-notif-13-aws.adobess.com
+    ss-prod-ew1-notif-16.aws.adobess.com
+    ss-prod-ue1-notif-13-aws.adobess.com
+    ss-prod-ue1-notif-16.aws.adobess.com
+    ss-prod-ue1-notif-79.aws.adobess.com
+    state.typekit.net
+    static-assets.photoshop.adobe.com
+    static.adobelogin.com
+    stock-landing-pages.adobe.io
+    stock.adobe.com
+    t3.ftcdn.net
+    t4.ftcdn.net
+    udps.adobe.com
+    ui.messaging.adobe.com
+    use.typekit.com
+    use.typekit.net
+    utut-service.adobe.com 
+    v.ftcdn.net
+    workflow.licenses.adobe.com
+    wss://livecreate-ue1.adobe.io
+    wss://presence-ue1.adobe.io
+    wss://speech.platform.bing.com
+    www.adobe.com
+    wwwimages.adobe.com
+    wwwimages2.adobe.com
+    xd-cdn.adobecces.com 
+    xd.adobe.com
+    xdce.adobe.io
